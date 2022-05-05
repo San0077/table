@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="san.css"> -->
+  <style>
+    body{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.card{
+    background-color: lightblue;
+    margin: 10px;
+}
+img{
+    height:40%;
+    width:75%;
+    padding:10px
+}
+  </style>
+    
+ 
+   
+
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+    <form action="">
+   <label for="fname">firstName</label><br>
+   <input type="text" name="" id="fname"><br>
+
+   <label for="lname">LastName</label><br>
+   <input type="text" name="" id="lname"><br>
+
+   <label for="addname">address</label><br>
+   <input type="text" name="" id="addname"><br>
+   
+   <label for="pine">pin</label><br>
+   <input type="numbers" name="" id="pin"><br>
+    <h4>Gender</h4>
+   <ul>
+       <input type="radio"  id="male" value="male" name="male">
+       <label for="">male</label><br>
+      <input type="radio" id="female" value="female" name="male">
+      <label for="">female</label>
+   </ul>
+   <h4>Food atleast two</h4>
+   <ul>
+        <input type="checkbox" name="kiss1" id="food">
+        <label>curry</label><br>
+        <input type="checkbox" name="kiss2" id="food">
+        <label>vegitables</label><br>
+        <input type="checkbox" name="kiss3" id="food">
+        <label>chicken</label><br>
+        <input type="checkbox" name="kiss" id="food">
+        <label>Noodles</label>
+   </ul>
+            <h4>state</h4>
+            <select name="state" id="state">
+                  <option value="tamil">TamilNadu</option>
+                  <option value="tamil1">Kerala</option>
+                  <option value="tamil2">Andra</option>
+           </select>
+           <br>
+           <h4>country</h4>
+           <select name="state" id="country">
+           <option value="tamil">india</option>
+           <option value="tamil1">china</option>
+           <option value="tamil2">korean</option>
+          </select>
+          <input type="button" value="submit" onclick="foo()">
+  </form>
+           
+        </div>
+        <div class="col-6">
+                <table class="table table-striped table-bordered" id="table">
+                  <thead class="table-dark">
+                    <tr>
+                        <td>FirstName</td>
+                        <td>LastName</td>
+                        <td>Address</td>
+                        <td>Pincode</td>
+                        <td>Gender</td>
+                        <td>Food</td>
+                        <td>State</td>
+                        <td>Country</td>
+                    </tr>
+                  </thead>
+                </table>
+           </div> 
+       </div>
+</div>
+
+
+
+
+  
+<script src="script1.js"></script>
+</body>
+</html>
